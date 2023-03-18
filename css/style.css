@@ -1,18 +1,18 @@
 body {
-    font-family:vester libre ;
+    font-family: 'Vesper Libre', serif;
     color: #1a1a1a;
     line-height: 1.5;
     font-size: 1.125rem;
 }
 
 
-    .florence-and-the-machine-2023.webp{
+img {
     width: 100%;
 }
 
 
 figcaption, .article-category, .sub-title, .author, time {
-    font-family: open sans; to be fixed
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -29,7 +29,7 @@ h1 {
     margin: 1rem 0;
 }
 
-h1 + p {
+.sub-title {
     font-weight: bold;
 }
 
@@ -37,19 +37,17 @@ figcaption {
     font-size: .85rem;
     align-items: center;
     color: #757575;
-    font-style: italic;
+    font-style:italic
     
 }
 
 style links 
-a link=""  
+    a:link { text-decoration: underline;}
+    a:link { color:#1a1a1a;}
+  a:hover {color:#ff3530}
+  a:hover {text-decoration: none;}
 
-a.one:link
-    {color: #1a1a1a;}
-    text-decoration: underline;
-    hover : underline dissapear
-    hover : color link change to #ff3530
-}
+
 
 .author, time {
     font-size: .85rem;
